@@ -9,6 +9,7 @@
 
 ## Task: Project Marvin.IDP
 
+* Run in console: ```image-gallery\src>dotnet new is4empty -n Marvin.IDP```
 * Change from SelfHost to IIS Express - Debug/Profile-IISExpress (launchSetting.json)
 * Run in Console window - Debug/Launch=Project (Edit Project File Wizard)
 ``` lauchSettings.json
@@ -23,3 +24,7 @@
     }
   }
 ```
+
+## Task: Add Project for IdentityServer4 Interface 
+
+* Run in console: ```image-gallery\src\Marvin.IDP>dotnet new is4ui```
