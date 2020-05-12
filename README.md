@@ -5,3 +5,4 @@
 ## Task: Setting up IdentityServer4
 
 * Add: Project Marvin.IDP (template is4empty)
+* Add new templates to Visual Studio ```dotnet new -i IdentityServer4.Templates```

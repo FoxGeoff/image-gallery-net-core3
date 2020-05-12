@@ -1,12 +1,24 @@
 {
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://localhost/Marvin.IDP",
+      "sslPort": 0
+    },
+    "iisExpress": {
+      "applicationUrl": "http://localhost:50512/",
+      "sslPort": 0
+    }
+  },
   "profiles": {
-    "SelfHost": {
+    "IIS Express": {
       "commandName": "Project",
-      "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "https://localhost:5001"
+      "sqlDebugging": false,
+      "applicationUrl": "https://localhost:4431"
     }
   }
 }
