@@ -12,7 +12,8 @@ namespace Marvin.IDP
         public static IEnumerable<IdentityResource> Ids =>
             new IdentityResource[]
             { 
-                new IdentityResources.OpenId()
+                new IdentityResources.OpenId(),   //required
+                new IdentityResources.Profile()
             };
 
         public static IEnumerable<ApiResource> Apis =>
