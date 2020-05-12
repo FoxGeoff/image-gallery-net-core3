@@ -28,3 +28,4 @@
 ## Task: Add Project for IdentityServer4 Interface 
 
 * Run in console: ```image-gallery\src\Marvin.IDP>dotnet new is4ui```
+* Uncomment Startup Code
