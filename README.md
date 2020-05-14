@@ -30,4 +30,4 @@
 * Run in console: ```image-gallery\src\Marvin.IDP>dotnet new is4ui```
 * Uncomment Startup Code
 
-## Task: Add Test Users and Credentials (WIP)
+## Task: Demo-Configuring Identy Server
