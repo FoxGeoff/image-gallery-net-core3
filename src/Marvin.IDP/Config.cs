@@ -30,7 +30,7 @@ namespace Marvin.IDP
                 AllowedGrantTypes = GrantTypes.Code,   //new List<string> { "authorization_code" },  
                 RedirectUris = new List<string>()
                 {
-                    "https//localhos:44389/signin-oidc"
+                    "https://localhost:44389/signin-oidc"
                 },
                 AllowedScopes =
                 {

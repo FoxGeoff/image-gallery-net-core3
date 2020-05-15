@@ -30,4 +30,6 @@
 * Run in console: ```image-gallery\src\Marvin.IDP>dotnet new is4ui```
 * Uncomment Startup Code
 
-## Task: Demo-Configuring Identy Server
+## Task: Configuring Identy Server
+
+## Task: Loggin in with authorization code flow (client code)
