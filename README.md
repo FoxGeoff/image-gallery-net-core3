@@ -35,3 +35,5 @@
 ## Task: Loggin in with authorization code flow (client code)
 
 ## Task: Enabling PKCE protection
+
+## Task: Logging out of Our Web Application
