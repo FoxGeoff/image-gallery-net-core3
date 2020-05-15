@@ -37,3 +37,5 @@
 ## Task: Enabling PKCE protection
 
 ## Task: Logging out of Our Web Application
+
+## Task: Returning Addional Claims from the UserInfo Endpoints
