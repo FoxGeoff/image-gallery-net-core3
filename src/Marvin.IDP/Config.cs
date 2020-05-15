@@ -28,6 +28,7 @@ namespace Marvin.IDP
                 ClientName = "Image Gallery",
                 ClientId =  "imagegalleyclient",
                 AllowedGrantTypes = GrantTypes.Code,   //new List<string> { "authorization_code" },  
+                RequirePkce = true,
                 RedirectUris = new List<string>()
                 {
                     "https://localhost:44389/signin-oidc"

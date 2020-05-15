@@ -46,7 +46,7 @@ namespace ImageGallery.Client
                     options.Authority = "https://localhost:44318/";
                     options.ClientId = "imagegalleyclient";
                     options.ResponseType = "code";
-                    options.UsePkce = false; //Turn to true before production
+                    options.UsePkce = true; //Turn to true before production
                     //options.CallbackPath = new PathString("...")
                     options.Scope.Add("openid");
                     options.Scope.Add("profile");
